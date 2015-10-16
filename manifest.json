@@ -1,0 +1,21 @@
+{
+"manifest_version": 2,
+    "name": "Gregify",
+    "description": "Replaces all pronouns with Greg",
+    "version": "1.2",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+}
