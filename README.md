@@ -1,1 +1,5 @@
-This is your Chrome extension which replaces all pronouns with Greg. 
+#Gregify 
+
+Author: nhtranngoc
+
+A Chrome extension which replaces all pronouns with Greg. 
